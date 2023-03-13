@@ -1,0 +1,199 @@
+{
+    "name": "doom one",
+    "author": "interpreterK",
+    "globals":
+    {
+        "foreground": "#bbc2cf",
+        "background": "#282c34",
+        "caret": "#FFCB6B",
+        "invisibles": "#bbc2cf",
+        "line_highlight": "color(#283954 alpha(1))",
+        "selection": "#283954"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#5B6268",
+            "font_style": "italic"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#bbc2cf"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "#da8548"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "#bbc2cf"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "#bbc2cf"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "#bbc2cf"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "#51afef"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "#ecbe7b",
+            "font_style": "bold"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "#51afef"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "#98be65",
+            "font_style": "underline"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "#98be65",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "#c678dd"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "#FFA8FF",
+            "font_style": "italic"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "#51afef"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "#FFA8FF"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "#FFA8FF"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "#da8548",
+            "font_style": "bold"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "#98be65"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable",
+            "foreground": "#bbc2cf"
+        },
+        {
+            "name": "CSS Functions / Property Values",
+            "scope": "support.function.misc.css, support.constant.property-value.css, support.constant.font-name.css",
+            "foreground": "#ff6c6b"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "#ffffff",
+            "background": "#ff6c6b"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "#ffffff",
+            "background": "#ecbe7b"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array",
+            "foreground": "#5B6268"
+        },
+        {
+            "name": "Text",
+            "scope": "variable.parameter.function",
+            "foreground": "#ffffff"
+        },
+        {
+            "name": "Attribute IDs",
+            "scope": "entity.other.attribute-name.id, punctuation.definition.entity",
+            "foreground": "#da8548"
+        },
+        {
+            "name": "Language Literal",
+            "scope": "variable.language.super, variable.language.this, variable.language.self",
+            "foreground": "#98be65"
+        },
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "#4bc4f7"
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "#98be65"
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "#ecbe7b"
+        },
+        {
+            "name": "GitGutter ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "GitGutter untracked",
+            "scope": "markup.untracked.git_gutter",
+            "foreground": "var(grey5)"
+        },
+        {
+            "name": "diff.header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "var(yellow3)"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "#4bc4f7"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "#98be65"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "#ecbe7b"
+        }
+    ]
+}
