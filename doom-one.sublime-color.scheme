@@ -34,7 +34,8 @@
         {
             "name": "markup links",
             "scope": "string.other.link, markup.underline.link",
-            "foreground": "#98be65"
+            "foreground": "#98be65",
+            "font_style": "bold"
         },
         {
             "name": "Built-in constant",
