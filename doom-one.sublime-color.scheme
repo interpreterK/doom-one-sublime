@@ -1,3 +1,6 @@
+// *It is the doom-one color scheme but not exact syntactical highlighting as doom emacs, its under my preferences.
+// You may freely edit this.
+// MIT
 {
     "name": "doom one",
     "author": "interpreterK",
@@ -6,7 +9,7 @@
         "foreground": "#bbc2cf",
         "background": "#282c34",
         "caret": "#FFCB6B",
-        "invisibles": "#bbc2cf",
+        "invisibles": "#676a73",
         "line_highlight": "color(#283954 alpha(1))",
         "selection": "#283954"
     },
@@ -21,7 +24,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "#bbc2cf"
+            "foreground": "#98be65"
         },
         {
             "name": "Number",
@@ -29,9 +32,14 @@
             "foreground": "#da8548"
         },
         {
+            "name": "markup links",
+            "scope": "string.other.link, markup.underline.link",
+            "foreground": "#98be65"
+        },
+        {
             "name": "Built-in constant",
             "scope": "constant.language",
-            "foreground": "#bbc2cf"
+            "foreground": "#da8548"
         },
         {
             "name": "User-defined constant",
@@ -49,20 +57,29 @@
             "foreground": "#51afef"
         },
         {
+            "name": "Operators",
+            "scope": "keyword.operator",
+            "foreground": "#51afef"
+        },
+        {
+            "name": "JavaScript Dollar",
+            "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
+            "foreground": "#51afef"
+        },
+        {
             "name": "Storage",
             "scope": "storage",
             "foreground": "#ecbe7b",
-            "font_style": "bold"
         },
         {
             "name": "Storage type",
             "scope": "storage.type",
-            "foreground": "#51afef"
+            "foreground": "#ecbe7b"
         },
         {
             "name": "Class name",
             "scope": "entity.name.class",
-            "foreground": "#98be65",
+            "foreground": "#ecbe7b",
             "font_style": "underline"
         },
         {
@@ -101,12 +118,11 @@
             "name": "Library constant",
             "scope": "support.constant",
             "foreground": "#da8548",
-            "font_style": "bold"
         },
         {
             "name": "Library class/type",
             "scope": "support.type, support.class",
-            "foreground": "#98be65"
+            "foreground": "#98be65",
         },
         {
             "name": "Library variable",
@@ -138,52 +154,34 @@
         {
             "name": "Text",
             "scope": "variable.parameter.function",
-            "foreground": "#ffffff"
+            "foreground": "#FFA8FF"
         },
         {
             "name": "Attribute IDs",
             "scope": "entity.other.attribute-name.id, punctuation.definition.entity",
-            "foreground": "#da8548"
+            "foreground": "#a9a1e1",
+            "font_style": "italic"
         },
         {
             "name": "Language Literal",
             "scope": "variable.language.super, variable.language.this, variable.language.self",
-            "foreground": "#98be65"
+            "foreground": "#a9a1e1"
         },
         {
-            "name": "GitGutter deleted",
-            "scope": "markup.deleted.git_gutter",
-            "foreground": "#4bc4f7"
-        },
-        {
-            "name": "GitGutter inserted",
-            "scope": "markup.inserted.git_gutter",
-            "foreground": "#98be65"
-        },
-        {
-            "name": "GitGutter changed",
-            "scope": "markup.changed.git_gutter",
-            "foreground": "#ecbe7b"
-        },
-        {
-            "name": "GitGutter ignored",
-            "scope": "markup.ignored.git_gutter",
-            "foreground": "var(grey2)"
-        },
-        {
-            "name": "GitGutter untracked",
-            "scope": "markup.untracked.git_gutter",
-            "foreground": "var(grey5)"
+            "name": "Language variable",
+            "scope": "variable.language",
+            "foreground": "#FFA8FF",
+            "font_style": "italic"
         },
         {
             "name": "diff.header",
             "scope": "meta.diff, meta.diff.header",
-            "foreground": "var(yellow3)"
+            "foreground": "#FFA8FF"
         },
         {
             "name": "diff.deleted",
             "scope": "markup.deleted",
-            "foreground": "#4bc4f7"
+            "foreground": "#ff6c6b"
         },
         {
             "name": "diff.inserted",
